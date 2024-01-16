@@ -977,6 +977,7 @@ a {
 @media screen and (max-width: 600px) {
     .columnx3 {
         width: 100%;
+        padding: 2%;
     }
 
     .quote {
