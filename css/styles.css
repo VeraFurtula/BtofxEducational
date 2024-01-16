@@ -964,12 +964,18 @@ a {
 }
 
 .uokvireno {
-    border: 1px solid #2D00F1;
     margin: 1%;
     border-radius: 10px;
+    box-shadow: 0px 30px 40px -20px #000 !important;
 }
 
 .naslov {
     border-bottom: 1px solid #2D00F1;
     line-height: 1.5;
+}
+
+@media screen and (max-width: 600px) {
+    .columnx3 {
+        width: 100%;
+    }
 }
